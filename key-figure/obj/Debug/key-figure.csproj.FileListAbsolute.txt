@@ -1,0 +1,14 @@
+C:\C#\key-figure\key-figure\bin\Debug\key-figure.exe.config
+C:\C#\key-figure\key-figure\bin\Debug\key-figure.exe
+C:\C#\key-figure\key-figure\bin\Debug\key-figure.pdb
+C:\C#\key-figure\key-figure\obj\Debug\MainWindow.g.cs
+C:\C#\key-figure\key-figure\obj\Debug\App.g.cs
+C:\C#\key-figure\key-figure\obj\Debug\key-figure_MarkupCompile.cache
+C:\C#\key-figure\key-figure\obj\Debug\key-figure_MarkupCompile.lref
+C:\C#\key-figure\key-figure\obj\Debug\MainWindow.baml
+C:\C#\key-figure\key-figure\obj\Debug\key-figure.g.resources
+C:\C#\key-figure\key-figure\obj\Debug\key_figure.Properties.Resources.resources
+C:\C#\key-figure\key-figure\obj\Debug\key-figure.csproj.GenerateResource.cache
+C:\C#\key-figure\key-figure\obj\Debug\key-figure.csproj.CoreCompileInputs.cache
+C:\C#\key-figure\key-figure\obj\Debug\key-figure.exe
+C:\C#\key-figure\key-figure\obj\Debug\key-figure.pdb

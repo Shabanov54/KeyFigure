@@ -1,0 +1,32 @@
+﻿<Window x:Class="key_figure.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:key_figure"
+        mc:Ignorable="d"
+        Title="Калькулятор контрольной цифры EAN-13" Height="295.669" Width="629.078">
+    <Grid RenderTransformOrigin="0.487,0.737" Margin="0,0,0,-1">
+        <Grid.ColumnDefinitions>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="110"/>
+            <RowDefinition Height="170"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Margin="0,0,0,0" Grid.RowSpan="2"/>
+        <TextBox x:Name="text" VerticalAlignment="Top" Height="30" Margin="173,10,10,0"/>
+        <Label x:Name="lable" Content="Введите номер штрих-кода" VerticalAlignment="Top" Height="32" Margin="0,10,453,0" />
+        <Button x:Name="button_add" HorizontalAlignment="Center" Content="Старт" VerticalAlignment="Top" Margin="10,60,10,0" Height="29" Click="Button_add_Click" Width="601" />
+        <StackPanel HorizontalAlignment="Stretch" Margin="0,10,0,-82" Grid.RowSpan="2" Height="352" VerticalAlignment="Top" Width="621">
+            <Label x:Name="lable1" Content="Готовый Штрих-Код с контрольной цифрой" HorizontalAlignment="Left" VerticalAlignment="Stretch" Height="32" Margin="25,80,0,0" Width="260" />
+            <TextBox x:Name="RadyCode"  Height="40" HorizontalAlignment="Right" Width="300" Margin="0,0,300,0"/>
+            <TextBlock/>
+            <!--<DataGrid AutoGenerateColumns="False" x:Name="DataGrid" Height="157" VerticalAlignment="Top" Margin="0,94,0,0" HorizontalAlignment="Center" >
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding RadyCode}" Header="Штрих код с Контрольной цифры" Width="310"/>
+                    <DataGridTextColumn Binding="{Binding Fix-Code}" Header="Контрольная цифра" Width="310"/>
+                </DataGrid.Columns>
+            </DataGrid>-->
+        </StackPanel>
+    </Grid>
+</Window>
